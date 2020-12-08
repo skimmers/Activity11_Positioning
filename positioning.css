@@ -1,0 +1,59 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 24px;
+    line-height: 30px;
+    color: #333;
+}
+
+#fixed_box{
+    background: blue;
+    position: fixed;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+    top: 0;
+    left: 0;
+
+}
+
+.main_content{
+    width: 600px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+
+}
+
+h1{
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#relative_box{
+    background: blue;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+#absolute_box {
+    background: gray;
+    width: 250px;
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    right: -10px;
+}
